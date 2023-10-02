@@ -1,4 +1,4 @@
-# <span style="color:red"> __Git__</p>
+# <span style="color:red"> __Git__<div style="width:300px">![Git logo](git.png) </div></p>
 
 ## Git это - одна из реалицаций распределённой системы управления версиями на локальном или удаленном репозитории.
 
