@@ -10,7 +10,7 @@
 |<span style="color:yellow"> __git__ <span style="color:green"> __config__<span style="color:red">  __--global color.ui auto__</span>|<span style="color:orange">*установливает автоматическую раскраску командной строки для Git для удобства просмотра* </span>|
 |<span style="color:yellow"> __git__ <span style="color:green"> __config__<span style="color:red">  __--global alias.st status__</span>|<span style="color:orange">*Данной командой можно присвоить команде <span style="color:red">status</span> сокращение <span style="color:red">st* </span>|
 |<span style="color:yellow"> __git__ <span style="color:green"> __config__<span style="color:red">  __--list__</span>|<span style="color:orange">*Просмотр настроек в виде списка* </span>|
-### Основные команды git для работы с репозитарием (Добавление и отслеживание)
+### Основные команды git для работы с репозитарием (Добавление файлов и комитов )
 |<span style="color:orange"><div style="width:160px"> __команда__ </div></span>      |<span style="color:orange">*описание*</span>
 |                -                |                 -                                       |
 |<span style="color:yellow"> __git__ <span style="color:green"> __init__</span>|<span style="color:orange">*Инициализирует локальный католог, как  репозиторий*</span>|
@@ -20,6 +20,10 @@
 |<span style="color:yellow"> __git__   <span style="color:green"> __commit__</span>|<span style="color:orange">*Совершение коммита*</span>|
 |<span style="color:yellow">__git__   <span style="color:green">__commit__<span style="color:red">  __-a__</span>|<span style="color:orange">*При указание ключа <span style="color:red"> -а </span> совершит коммит, автоматически индексируя изменения в файлах проекта. Новые файлы при этом индексироваться **не будут!** Удаление же файлов будет учтено.*</span>|
 |<span style="color:yellow"> __git   <span style="color:green"> __commit__ <span style="color:red">-a -m "text"__</span>|<span style="color:orange">*Совершение коммита c ключами* <span style="color:red">*-a -m "text"*</span> позволяет задать заголовок для него|
+
+### Основные команды git для работы с репозитарием (логирование и статус )
+|<span style="color:orange"><div style="width:160px"> __команда__ </div></span>      |<span style="color:orange">*описание*</span>
+|                -                |                 -                                       |
 |<span style="color:yellow"> __git__<span style="color:green"> __log__</span>|<span style="color:orange">*Выводит разнообразну информация о коммитах в целом, по отдельным файлам и различной глубины погружения в историю*</span>|
 |<span style="color:yellow"> __git__<span style="color:green"> __log__<span style="color:red">  __-p__</span>|<span style="color:orange">*Получить подробную информацию о каждом в виде патчей по файлам из коммитов можно, добавив ключ <span style="color:red">-p (или -u)*</span>|
 |<span style="color:yellow"> __git__<span style="color:green"> __log__<span style="color:red">  __--stat__</span>|<span style="color:orange">*Статистика изменения файлов, вроде числа измененных файлов, внесенных в них строк, удаленных файлов вызывается ключом <span style="color:red">--stat*</span>|
