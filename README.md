@@ -26,6 +26,7 @@
 |<span style="color:yellow"> __git__ <span style="color:green"> __log__<span style="color:red">  __--summary__</span>|<span style="color:orange">*За информацию по созданиям, переименованиям и правам доступа файлов отвечает ключ <span style="color:red">__--summary__* </span>|
 |<span style="color:yellow"> __git__ <span style="color:green"> __log__<span style="color:red"> __--oneline__</span>|<span style="color:orange">*Показывает лог  commit в одну строчку, после угазания ключа <span style="color:red">__--oneline__* </span>|
 |<span style="color:yellow"> __git__ <span style="color:green">__log__<span style="color:red"> __--graph__</span>|<span style="color:orange">*Показывает лог c использованием графического вида* </span>|
+|<span style="color:yellow"> __git__<span style="color:green"> __reflog__</span>|<span style="color:orange">*Выводит информация о всех действиях, в том числе об отмене коммитов*</span>|
 
 ### Основные команды git для работы с репозитарием (Ветвление и слияние)
 |<span style="color:orange"><div style="width:160px"> __команда__ </div></span>      |<span style="color:orange">*описание*</span>
@@ -35,3 +36,10 @@
 |<span style="color:yellow"> __git__ <span style="color:green"> __checkout__<span style="color:red">  __-b \<name>__</span>|<span style="color:orange">*Создание новой ветки с именем <span style="color:red">name* <span style="color:orange">*и переключением на нее*|
 |<span style="color:yellow"> __git__ <span style="color:green"> __checkout__<span style="color:red">  __\<name>__</span>|<span style="color:orange">*Переключение на ветку <span style="color:red">name* |
 |<span style="color:yellow"> __git__ <span style="color:green"> __merge__<span style="color:red">  __\<name>__</span>|<span style="color:orange">*Вливание в текущую ветку <- ветки с именем( <span style="color:red">name* <span style="color:orange">)|
+
+### Основные команды git для работы с репозитарием (Возврат и отмена комитов)
+|<span style="color:orange"><div style="width:160px"> __команда__ </div></span>      |<span style="color:orange">*описание*</span>
+|                -                |                 -                                       |
+|<span style="color:yellow"> __git__ <span style="color:green"> __reset__   <span style="color:red">\<name hesh> </span>|<span style="color:orange">*Возвращаемся на хеш с нужным именем и отменяем предыдущие коммиты* <span style="color:yellow"></span> |
+|<span style="color:yellow"> __git__ <span style="color:green"> __revert__   <span style="color:red">\<name hesh> </span>|<span style="color:orange">*Отменение какого либо коммита по имени хеша* <span style="color:yellow"></span> |
+|<span style="color:yellow"> __git__ <span style="color:green"> __restore__   <span style="color:red">\<name file> </span>|<span style="color:orange">*Отменяет последний коммит с разными параметрами(оставляет изменения и файлы, сохранение текущий изменений и удаление изменений последнего комита, удаление всех изменений и возврат к предыдущему коммиту )* <span style="color:yellow"></span> |
