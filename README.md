@@ -52,6 +52,7 @@
 |<span style="color:orange"><div style="width:240px"> __команда__ </div></span>      |<span style="color:orange">*описание*</span>
 |                -                |                 -                                       |
 |<span style="color:yellow"> __git__ <span style="color:green"> __remote add origin__<span style="color:red">  __\<URL project>__</span>|<span style="color:orange">*подключаем удаленный репозиторий( <span style="color:red">URL repo* <span style="color:orange">)|
+|<span style="color:yellow"> __git__ <span style="color:green"> __remote__<span style="color:red">  __\-v__</span>|<span style="color:orange">*Просмотр адресов для чтения и записи, привязанные к репозиторию( <span style="color:red">URL repo* <span style="color:orange">)|
 |<span style="color:yellow"> __git__<span style="color:green"> __push__</span>|<span style="color:orange">*Отправляет на удаленный репозитарий локальную версию*</span>|
 |<span style="color:yellow"> __git__<span style="color:green"> __pull__</span>|<span style="color:orange">*Копирует удаленый репозиторий в локальный с функцией merge*</span>|
 |<span style="color:yellow"> __git__ <span style="color:green"> __clone__<span style="color:red">  __\<URL project>__</span>|<span style="color:orange">*Копируем удаленный репозиторий в свою текущую локальную папку( <span style="color:red">URL repo* <span style="color:orange">)|
